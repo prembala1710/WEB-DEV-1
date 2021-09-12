@@ -1,0 +1,144 @@
+html,body {
+  width: 100%;
+  height: 108%;
+  margin: 0 auto;
+}
+.TotalCollective {
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(-45deg,#EE7752,#E73C7E,#23A6D5,#23D5AB);
+  background-size:400% 400%;
+  animation:change 10s ease-in-out infinite;
+}
+.login{
+  height:100%;
+  width:100%;
+  position: absolute;
+  background-position:center;
+  background-size: cover;
+  background-color: transparent;
+  display:flex;
+}
+.form , .form1{
+  top:0;
+  width:350px;
+  height:350px;
+  background: white;
+  position: absolute;
+  padding:5px;
+  border:3px solid black;
+  margin: 6% auto;
+  margin-left: 16%;
+  justify-content: space-evenly;
+}
+.form1 {
+  left: 550px;
+}
+.head, .head1{
+  text-align: center;
+}
+.log , .logi , .log1 , .logi1{
+  width:50%;
+  top:100px;
+  position: absolute;
+  left:30px;
+  height:50px;
+  }
+  .logi, .logi1{
+    top:150px;
+  }
+  .text, .text-1{
+  width:50%;
+  top:111px;
+  position: absolute;
+  left:120px;
+  border:2px solid purple;
+  border-radius:20px;
+  height: 10%;
+ }
+.text1 , .text1-1{
+      width:50%;
+  top:161px;
+  position: absolute;
+  left:120px;
+  border:2px solid purple;
+  border-radius: 20px;
+    height: 10%;
+
+ }
+
+.btn, .btn1{
+  bottom:50px;
+  width:100px;
+  height:40px;
+  position: absolute;
+  left:120px;
+  cursor: pointer;
+  display: block;
+  border:0;
+  outline:none;
+  background-color:#1db096;
+  border-radius:20px;
+  box-shadow: 5px 10px 30px rgba(24,139,119,0.2);
+}
+.btn:hover{
+  background-color:#23cdaf;
+  transition:all ease 0.2s;
+}
+.btn1:hover{
+  background-color:#23cdaf;
+  transition:all ease 0.2s;
+}
+
+.btn2{
+  position:absolute;
+  cursor: pointer;
+  display: block;
+  background-color:#1db096;
+  border-radius:20px;
+  box-shadow: 5px 10px 30px rgba(24,139,119,0.2);
+  border:0;
+  width:100px;
+  height:40px;
+  top:515px;
+  right:350px;
+}
+
+.reg1{
+  position:absolute;
+  top:505px;
+  right:500px;
+  font-size:20px;
+  font-weight:bold;
+}
+.HeadCollective {
+  background-color: transparent;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  width: 550px;
+}
+.logo {
+  width: 75px;
+  height: 75px;
+  padding: 15px;
+}
+.mainhead {
+  font-size: 25px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes change{
+  0%{
+    background-position:0 50%;
+  }
+  50%{
+    background-position:100% 50%;
+  }
+  100%{
+    background-position:0 50%;
+  }
+}
