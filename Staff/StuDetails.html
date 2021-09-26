@@ -6,7 +6,7 @@
   <body>
     <div class="nav">
         <div class="logo">
-          <a href="#"><img src="image1.jpg" alt="an image containing college logo" class="logoimg"></a>
+          <a href="#"><img src="logo.png" alt="an image containing college logo" class="logoimg"></a>
         </div>
         <div class="title">
           <h1>STUDENT DETAILS<h1>
@@ -18,7 +18,9 @@
     </div>
     <div class="details" >
       <div class="filter">
+        <div class="label">
         <label>DEPARTMENT : </label>
+        </div>
         <select class="year" id="year">
           <option value="cse">CSE</option>
           <option value="ece">ECE</option>
@@ -27,17 +29,25 @@
           <option value="civil">CIVIL</option>
           <option value="mechanical">MECHANICAL</option>
         </select>
+        <div class="label">
         <label>YEAR : </label>
+        </div>
         <select class="year" id="year">
           <option value="cse">FIRST</option>
           <option value="ece">SECOND</option>
           <option value="eee">THIRD</option>
           <option value="it">FOURTH</option>
         </select>
-        <div>
-          <label for="name" >NAME : </label><input type="text" class="name" id="name"></input>
-          <label for="regno" class="reg_l">REGISTER NUMBER : </label><input type="text" class="regno" id="regno"></input>
-        </div>
+      </div>
+      <div class="filter">
+          <div class="label">
+          <label for="name" >NAME : </label>
+          </div>
+          <input type="text" class="name" id="name"></input>
+          <div class="label">
+          <label for="regno" class="reg_l">REGISTER NUMBER : </label>
+          </div>
+          <input type="text" class="regno" id="regno"></input>
       </div>
       <div>
         <table>
