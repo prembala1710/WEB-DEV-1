@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&family=Scheherazade+New&display=swap');
 body {
 	margin: 0;
 	padding: 10px;
+  background-color: #fdf214;
 }
 .nav {
 	display: flex;
@@ -13,30 +15,37 @@ body {
 	height: 75px;
 }
 .Logoutbtn , .Backbtn {
-	background-color: black;
-	color: white;
-	width: 140px;
+  border:none;
+	background-color: #00FFFF;
+	color: black;
+	width: 135px;
 	font-size: 35px;
 	border-radius: 15px;
-	padding: 15px;
+	padding: 5px;
 	box-shadow: 10px 10px 10px gray;
 	margin: 15px;
+  font-family: 'Scheherazade New', serif;
+  
 }
 .Logoutbtn:hover , .Backbtn:hover {
-	background-color: #3f7f3f;
+	background-color: #ffffdd;
+ 
 	box-shadow: 20px 20px 10px gray;
 	transition-duration: 1s;
+  
 }
 .Logoutbtn:active , .Backbtn:active {
 	background-color: black;
 	box-shadow: 10px 10px 10px gray;
 	transition-duration: 1s;
+  
 }
 .Welcomediv {
 	display: flex;
 	width: 50%;
 	font-size: 25px;
 	justify-content: center;
+  font-family: 'DM Serif Text', serif;
 }
 .link {
 	width: 100%;
@@ -56,7 +65,7 @@ body {
 	height: 45%;
 }
 .Function:hover , .updatesdiv:hover {
-	background-color: black;
+	
 	box-shadow: 20px 20px 10px gray;
 	transition-duration: 1s;
 }
@@ -85,14 +94,16 @@ body {
 .updatesdiv {
 	width: 50%; 
 	height: 500px;
-	background-color: black;
-	color: white;
+	background-color: #00e0f9;
+	color:black;
+  font-family: 'DM Serif Text', serif;
 	text-shadow: 0px 0px;
 	cursor: default;
 }
 .updates {
 	font-size: 20px;
 	margin: 10px;
+  font-family: 'Scheherazade New', serif;
 }
 a {
 	text-decoration: none;
@@ -102,14 +113,17 @@ a {
 	margin: 25px;
 	font-size: 25px;
 	font-weight: bolder;
+  font-family: 'Scheherazade New', serif;
 }
 #StuDetails {
 	background-image: url(StuDetails.jpeg);
 	background-size: cover;
+  font-family: 'DM Serif Text', serif;
 }
 #SemMarks {
 	background-image: url(StuMark.jpeg);
 	background-size: cover;
+  font-family: 'DM Serif Text', serif;
 }
 @media only screen and (max-width: 620px) {
 	.mainBody {
@@ -178,4 +192,7 @@ tr:nth-child(even) {
 }
 .reg_l{
   margin-left:90px;
+}
+li{
+  margin:5px;
 }
